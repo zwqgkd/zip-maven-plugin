@@ -1,2 +1,30 @@
-.idea
-target
+# idea ignore
+.idea/
+*.iml
+*.ipr
+*.iws
+.factorypath
+
+# maven ignore
+target/
+*.class
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+logs/
+build/
+*.java~
+*.properties~
+*.xml
+
+#system ignore
+.DS_Store
+Thumbs.db
